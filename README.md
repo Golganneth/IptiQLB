@@ -18,5 +18,5 @@ The system tries to follow DDD principles to provide clear separation between ap
 
 The solution has a lot of improvement points. Given the 4 main components (Load Balancer, Pool, HeartBeatChecker and CapacityControl), it wuold be possible to take an event-driven approach, where each one of the components would publish what's happening on them to an Event Bus and react to the events they are interested in. A simple case would be the capacity control when a new provider is added to a pool or when it's included and excluded. Another example is the outcome of the heartbeat checker publishing the result of each check to the event bus for the health control process to handle what's going on, separting concerns even more.
 
-Given the time, the approach is much more simpler. 
+Given the time, the approach is much more simpler. The same goes with the code coverage of the unit tests. There are tests pending for most of the components.  
 
