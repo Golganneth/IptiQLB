@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+        "IptiQ\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^8.5"
+  }
+}
